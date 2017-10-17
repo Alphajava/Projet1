@@ -8,9 +8,22 @@ public class Alpha {
 		int age = 18;
 		
 		
-		System.out.print(tab[0] + age + tab[1]);  // affichage 
+		//System.out.println(tab[0] + age + tab[1]);  // affichage 
+		
+		for (int i = 0; i < tab.length; i++) {
+			
+			if ( i == 0) {
+			System.out.print(tab[i] + age);
+			}
+			else {
+			System.out.print(tab[i]);	
+			}
+				
+			}
+		}
+			
 	}
-}
+
 		
 		
 		
